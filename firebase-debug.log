@@ -1,0 +1,41 @@
+[debug] [2019-09-03T07:41:09.501Z] ----------------------------------------------------------------------
+[debug] [2019-09-03T07:41:09.504Z] Command:       /home/maaz/.nvm/versions/node/v10.15.3/bin/node /home/maaz/.nvm/versions/node/v10.15.3/bin/firebase init
+[debug] [2019-09-03T07:41:09.504Z] CLI Version:   7.3.0
+[debug] [2019-09-03T07:41:09.504Z] Platform:      linux
+[debug] [2019-09-03T07:41:09.504Z] Node Version:  v10.15.3
+[debug] [2019-09-03T07:41:09.504Z] Time:          Tue Sep 03 2019 12:41:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-09-03T07:41:09.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-03T07:41:09.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-03T07:41:09.510Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/maaz/e390c1c3-0a45-4263-9412-f292d4f376f3/typeform-clone/ant-design-3.x-landing-page
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-09-03T07:41:28.735Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:66:28)
+    at Interface._setRawMode (readline.js:251:16)
+    at Interface.close (readline.js:376:10)
+    at ReadStream.ontermend (readline.js:164:10)
+    at ReadStream.emit (events.js:194:15)
+    at ReadStream.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
