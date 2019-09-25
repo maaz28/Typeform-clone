@@ -1,8 +1,10 @@
 ## About
 
 This project is a clone of the typeform (form only)
-The project is highly customizable, you just have to pass the array of questions
+The project is highly customizable, you just have to pass the array of questions.
+
 Collaborators are welcome to make this project more awesome
+
 Don't forget to star :)
 
 ## Tech Stack
